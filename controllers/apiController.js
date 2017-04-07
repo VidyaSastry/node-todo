@@ -1,4 +1,4 @@
-var Todos = require('../models/todoModel.js');
+var Todos = require('../models/todoModel');
 var bodyParser = require('body-parser');
 
 module.exports = function(app){
@@ -33,7 +33,7 @@ module.exports = function(app){
     }
     else{
       var newToDo = Todos({
-        username: 'Test',
+        username: 'test',
         todo: req.body.todo,
         isDone: req.body.isDone,
         hasAttachment: req.body.hasAttachment
