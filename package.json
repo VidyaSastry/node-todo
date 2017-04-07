@@ -1,0 +1,27 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VidyaSastry/node-todo.git"
+  },
+  "author": "VidyaSastry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VidyaSastry/node-todo/issues"
+  },
+  "homepage": "https://github.com/VidyaSastry/node-todo#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "mongoose": "^4.9.3"
+  }
+}
